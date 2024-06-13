@@ -13,8 +13,8 @@
     height: 600px; /* 고정된 높이 설정 */
     object-fit: cover;
     display: none; /* 모든 슬라이드 숨김 */
-    margin-right: 0%; /* 사진과 달력 사이에 여백 */
-    margin-left: 4%;
+    margin-right: 5%; /* 사진과 달력 사이에 여백 */
+    margin-left: 5%;
 }
 
 /* 화살표 스타일 */
