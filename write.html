@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시판</title>
+    <link rel="stylesheet" href="css/css.css">
+    <style>
+        body {
+            background-image: url('https://cdn.pixabay.com/photo/2012/11/06/04/09/board-64272_1280.jpg');
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        frameset, frame {
+            border: none; /* 프레임 경계선을 제거 */
+        }
+    </style>
+</head>
+<frameset rows="5%,*,5%" border="0">
+    <frame src="top.html">
+    <frameset cols ="5%,*,5%">
+        <frame src="left.html">
+        <frame src="main.html">
+        <frame src="right.html">
+    </frameset>
+    <frame src="bottom.html">
+</frameset>
+<body>
+</body>
+</html>
