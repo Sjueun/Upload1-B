@@ -20,31 +20,6 @@ h2 {
     text-indent: 5%;
 }
 
-/* 푸터 스타일 */
-footer {
-    background-color: #333; /* 배경색 설정 */
-    color: #fff; /* 텍스트 색상 설정 */
-    padding: 20px; /* 안쪽 여백 설정 */
-    text-align: center; /* 텍스트 가운데 정렬 */
-    position: fixed; /* 화면에 고정 */
-    width: 100%; /* 너비 100%로 설정 */
-    bottom: 0; /* 페이지 하단에 고정 */
-    z-index: 9999; /* 다른 요소들 위에 표시 */
-}
-
-/* 스크롤시 푸터 애니메이션 */
-body {
-    margin-bottom: 120px; /* 푸터와 겹치는 요소들과의 여백 확보 */
-}
-/* 맨 위로 스크롤시 푸터 숨기기 */
-body.scroll-up footer {
-    bottom: -120px; /* 페이지 하단 밖으로 이동 */
-}
-/* 맨 아래로 스크롤시 푸터 보이기 */
-body.scroll-down footer {
-    bottom: 0; /* 페이지 하단에 고정 */
-}
-
 /* 가로메뉴바 */
 body, ul {
     margin: 5;
