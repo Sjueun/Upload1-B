@@ -3,7 +3,7 @@
     width: 30%; /* 달력 테이블의 가로 길이를 조정 */
     float: right; /* 오른쪽에 배치 */
     margin-top: 10px; /* 사진 위에 여백 설정 */
-    margin-left: 0%; /* 사진과 달력 사이의 간격 설정 */
+    margin-left: 5%; /* 사진과 달력 사이의 간격 설정 */
 }
 /* 달력 내 셀(날짜)의 스타일 */
 .calendar td {
