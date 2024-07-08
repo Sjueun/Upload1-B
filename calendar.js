@@ -70,6 +70,10 @@ const calendarCells = document.querySelectorAll('.calendar td');
 
 // 달력 날짜 클릭시
 calendarCells.forEach(cell => {
-    cell.addEventListener('click', <button onclick="location.href='quetions.html'">자주 묻는 질문</button>
+    cell.addEventListener('click', function() {
+        // 여기에 이동할 URL을 지정
+        const url = 'https://example.com';
+        // 특정 URL로 이동합니다.
+        window.location.href = url;
     });
 });
