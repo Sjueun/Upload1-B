@@ -72,7 +72,7 @@ const calendarCells = document.querySelectorAll('.calendar td');
 calendarCells.forEach(cell => {
     cell.addEventListener('click', function() {
         // 여기에 이동할 URL을 지정
-        const url = 'https://example.com';
+        const url = 'write.html';
         // 특정 URL로 이동합니다.
         window.location.href = url;
     });
