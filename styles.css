@@ -1,9 +1,9 @@
 body {
-    background-color: #0067A3; /* 배경색 설정 */
+    background-color: #4682B4; /* 배경색 설정 */
 }
 /* <hr> 태그 위의 요소들의 배경색을 녹색으로 설정 */
 h1 + * {
-    background-color: #0F4A8B;
+    background-color: #4682B4;
 }
 /* <hr> 태그 아래 요소들의 스타일 */
 body h1 + * {
