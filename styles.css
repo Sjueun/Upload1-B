@@ -3,7 +3,7 @@ body {
 }
 /* <hr> 태그 위의 요소들의 배경색을 녹색으로 설정 */
 h1 + * {
-    background-color: #004F92;
+    background-color: #0067A3;
 }
 /* <hr> 태그 아래 요소들의 스타일 */
 body h1 + * {
