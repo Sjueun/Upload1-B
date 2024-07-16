@@ -9,62 +9,7 @@
     <link rel="stylesheet" href="calendar.css">
     <link rel="stylesheet" href="button.css">
     <link rel="stylesheet" href="css/style.css">
-        <style>
-        /* 여기에 추가적인 CSS 스타일링이 필요하면 작성하세요 */
-        .post-container {
-            margin-top: 20px;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            background-color: #f9f9f9;
-        }
-
-        .post-container input[type="text"],
-        .post-container textarea {
-            width: 100%;
-            margin-bottom: 10px;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 3px;
-            font-size: 16px;
-        }
-
-        .post-container textarea {
-            height: 150px; /* 조정 가능한 높이 */
-        }
-
-        .post-container button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 3px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-
-        .post-container button:hover {
-            background-color: #45a049;
-        }
-
-        .posted-content {
-            margin-top: 20px;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            background-color: #f0f0f0;
-        }
-
-        .posted-content h3 {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-
-        .posted-content p {
-            font-size: 16px;
-            line-height: 1.6;
-        }
-    </style>
+        
 </head>
 <body>
     <script src="script.js"></script>
@@ -105,14 +50,6 @@
 
     <hr class="line-below-slider">
     <h2 class="jm-font">이전글</h2>
-
-    <div id="posted-content-container"></div>
-
-    <div id="post-container-1" class="post-container">
-        <input type="text" id="post-title-1" placeholder="제목을 입력하세요">
-        <textarea id="post-content-1" placeholder="내용을 입력하세요"></textarea>
-        <button onclick="submitPost(1)">게시하기</button>
-    </div>
 
     <a href="write.html" class="fixed-button" id="fixedButton">
         <img src="button.png" alt="버튼">
