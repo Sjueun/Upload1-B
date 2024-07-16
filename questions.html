@@ -6,96 +6,105 @@
     <title>오늘은;감성일기사이트</title>
     <link rel="stylesheet" href="background.css">
     <style>
-body {
-      .fnb {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 70px;
-      background-color: #506380;
-      color: white;
-      text-align: center;
-      line-height: 30px;
-    }
-    h1{
-      font-size: xx-large;
-      font-weight: 900;
-      color: #ddd;
-    }
-    background-color: #5D7599;}
-em{
-  font-size: larger;
-  font-weight: bolder;
-  color: #ddd;
-}
-article{
-  color: #ddd;
-}
-address{
-  position: absolute;
-  top: 10%;
-  left: 60%;
-  color: #ddd;
-}
+        body {
+            background-color: #5D7599;
+            color: #ddd;
+            font-family: Arial, sans-serif; /* 추가: 기본 폰트 지정 */
+        }
+        
+        .fnb {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 70px;
+            background-color: #506380;
+            color: white;
+            text-align: center;
+            line-height: 70px; /* 수정: line-height를 높여서 텍스트 수직 정렬 */
+        }
 
-ul {
-    margin: 5;
-    padding: 0;
-}
+        h1 {
+            font-size: xx-large;
+            font-weight: 900;
+            color: #ddd;
+        }
 
+        em {
+            font-size: larger;
+            font-weight: bolder;
+            color: #ddd;
+        }
 
-#navbar ul {
-    list-style-type: none;
-    overflow: hidden;
-    text-align: center; 
-}
-#navbar ul li {
-    display: inline-block; 
-}
+        article {
+            color: #ddd;
+        }
 
-#navbar ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 100px;
-    text-decoration: none;
-    letter-spacing: 6px; 
-}
-#navbar ul li a:hover {
-    background-color:#ddd ;
-    color: black;
-}
+        address {
+            position: absolute;
+            top: 10%;
+            left: 60%;
+            color: #ddd;
+        }
 
+        ul {
+            margin: 0; /* 수정: 기본 margin 값으로 변경 */
+            padding: 0;
+        }
+
+        #navbar ul {
+            list-style-type: none;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        #navbar ul li {
+            display: inline-block;
+        }
+
+        #navbar ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 100px;
+            text-decoration: none;
+            letter-spacing: 6px;
+        }
+
+        #navbar ul li a:hover {
+            background-color: #ddd;
+            color: black;
+        }
     </style>
 </head>
 <body>
-  <nav id="navbar">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="howToUse.html">How To Use</a></li> 
-        <li><a href="write.html">Write</a></li>
-        <li><a href="aboutUs.html">About Us</a></li>
-    </ul>
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="howToUse.html">How To Use</a></li> 
+            <li><a href="write.html">Write</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+        </ul>
+    </nav>
 
     <div class="content">
         <h1><strong>자주 묻는 질문</strong></h1> 
 
         <img src="7.jpg" height="300" width="300" alt="일기 사진">
 
-        <p><em> Q: 업로드 동아리는 무엇인가요? </em></p>
-        <p><article>A: 수내고에서 프로그래밍에 관심이있어서모인 학생들의 코딩 모임이라고보시면 될 것 같습니다<br></article> </p>
-       
+        <p><em>Q: 업로드 동아리는 무엇인가요?</em></p>
+        <p><article>A: 수내고에서 프로그래밍에 관심이 있어서 모인 학생들의 코딩 모임이라고 보시면 될 것 같습니다</article></p>
        
         <address>
-          <p><em> Q: 무슨 사이트인가요? </em></p>
-          <p>A: 자신이 하고 싶었던 말을 자유롭게 할 수 있고 </p> 
-          <p>⠀ 자신의 이야기를 다른 사람에게 들려주고 싶을 때 언제든지 쓸 수 있는 일기 사이트입니다</p>
-
-          <img src="https://plus.unsplash.com/premium_photo-1661767959390-c0ad35845cce?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height="350" width="500" alt="일기 사진">
+            <p><em>Q: 무슨 사이트인가요?</em></p>
+            <p>A: 자신이 하고 싶었던 말을 자유롭게 할 수 있고</p> 
+            <p>자신의 이야기를 다른 사람에게 들려주고 싶을 때 언제든지 쓸 수 있는 일기 사이트입니다</p>
+            <img src="https://plus.unsplash.com/premium_photo-1661767959390-c0ad35845cce?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height="350" width="500" alt="일기 사진">
         </address>
-        <div></div>
-        <div class="fnb">
-            ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+    </div>
+
+    <div class="fnb">
+        ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+    </div>
 </body>
 </html>
