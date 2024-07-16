@@ -10,5 +10,40 @@
     <hr>
     <p>위에 임시등록, 등록 버튼. 그 아래에 제목 입력하는 칸. 아래에 이미지, 영상, 파일 추가할 수 있는 아이콘. 아래 내용 입력하는 칸 </p>
     <p></p>
+        <script>
+        var postCounter = 1; // 포스팅 영역의 카운터 변수
+
+        function submitPost(postNum) {
+            var title = document.getElementById("post-title-" + postNum).value;
+            var content = document.getElementById("post-content-" + postNum).value;
+
+            // 포스트가 게시되는 시점에서 포스팅 영역을 숨김.
+            var postContainer = document.getElementById("post-container-" + postNum);
+            postContainer.style.display = "none";
+
+            // 게시된 포스트를 추가
+            var postedContentContainer = document.getElementById("posted-content-container");
+            var newPostedContent = document.createElement("div");
+            newPostedContent.className = "posted-content";
+            newPostedContent.innerHTML = `
+                <h3>${title}</h3>
+                <p>${content}</p>
+            `;
+            postedContentContainer.appendChild(newPostedContent);
+
+            // 새로운 포스팅 영역을 추가.
+            postCounter++;
+            var newPostContainer = document.createElement("div");
+            newPostContainer.id = "post-container-" + postCounter;
+            newPostContainer.className = "post-container";
+            newPostContainer.innerHTML = `
+                <input type="text" id="post-title-${postCounter}" placeholder="제목을 입력하세요">
+                <textarea id="post-content-${postCounter}" placeholder="내용을 입력하세요"></textarea>
+                <button onclick="submitPost(${postCounter})">게시하기</button>
+            `;
+            
+            postedContentContainer.appendChild(newPostContainer);
+        }
+    </script>
 </body>
 </html>
