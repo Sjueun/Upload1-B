@@ -64,6 +64,23 @@
 <body>
     <h1>글 작성하기</h1><a href="index.html" style="font-size: 15px;"> home</a>
     <hr>
+    <div id="posted-content-container"></div>
+
+    <div id="post-container-1" class="post-container">
+        <input type="text" id="post-title-1" placeholder="제목을 입력하세요">
+        <textarea id="post-content-1" placeholder="내용을 입력하세요"></textarea>
+        <button onclick="submitPost(1)">게시하기</button>
+    </div>
+
+    <a href="write.html" class="fixed-button" id="fixedButton">
+        <img src="button.png" alt="버튼">
+    </a>
+    <script src="slide.js"></script>
+    <script src="calendar.js"></script>
+    <script src="randomText.js" defer></script>
+
+    <button onclick="location.href='questions.html'">자주 묻는 Q</button>
+    
     <script>
         var postCounter = 1; // 포스팅 영역의 카운터 변수
 
